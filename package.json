@@ -2,7 +2,7 @@
   "name": "live",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jaywiles.github.io/jaywiles.github.io",
+  "homepage": "https://jaywiles.github.io/jaywiles.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",

@@ -1,0 +1,11 @@
+.header-container {
+    height: 60px;
+}
+
+.header-element {
+    width: 130px;
+    height: 30px;
+    margin: 15px;
+    float: right;
+    background-color: red;
+}

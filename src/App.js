@@ -20,14 +20,14 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Header />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/journalism" component={Journalism} />
         <Route path="/dev" component={Dev} />
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     )
   }
