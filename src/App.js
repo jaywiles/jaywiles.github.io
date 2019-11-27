@@ -20,7 +20,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
