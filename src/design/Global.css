@@ -1,0 +1,9 @@
+body {
+    height: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+
+a {
+    /* remove underline for all links */
+    text-decoration: none;
+}

@@ -9,10 +9,11 @@ class Header extends Component {
   render() {
     return (
       <div className="header-container">
-        <div className="header-logo"></div>
-        <h4 className="header-element"><a href="./contact">CONTACT</a></h4>
+        <div className="header-photo"></div>
+        <h4 className="header-element"><a href="./">HOME</a></h4>
         <h4 className="header-element"><a href="./about">ABOUT</a></h4>
-        <h4 className="header-element"><a href="./Home">HOME</a></h4>
+        <h4 className="header-element"><a href="./contact">CONTACT</a></h4>
+        <h4 className="header-element"><a href="./resume">RESUME</a></h4>
       </div>
     )
   }

@@ -1,11 +1,29 @@
 .header-container {
-    height: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
 }
 
 .header-element {
-    width: 130px;
-    height: 30px;
-    margin: 15px;
-    float: right;
+    /* change this if more elements added */
+    width: 10%;
+    padding: 10px;
+    /* aligns vertically */
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
     background-color: red;
+    font-size: 24px;
+}
+
+.header-photo {
+    height: 90px;
+    width: 70px;
+    margin: auto;
+    background-image: url('../images/Jay-headshot.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

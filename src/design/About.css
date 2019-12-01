@@ -1,0 +1,9 @@
+.about-photo {
+    height: 300px;
+    width: auto;
+    margin: auto;
+    background-image: url('../images/Jay-headshot.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
