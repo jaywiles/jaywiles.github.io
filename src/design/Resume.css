@@ -1,0 +1,33 @@
+.resume-container {
+
+}
+
+.resume-name-head {
+    font-size: 32px;
+    text-align: center;
+}
+
+.resume-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows:  */
+    grid-template-areas:
+        "left middle right";
+}
+
+.column {
+    margin: 5px;
+    border: 1px solid black;
+    height: calc(100vh - 200px);
+}
+
+.column-header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 1.5em;
+}
+
+.job-title {
+    font-weight: bold;
+}

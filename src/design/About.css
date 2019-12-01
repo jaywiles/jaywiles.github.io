@@ -1,9 +1,23 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "photo text";
+    /* height: calc(100vh - 150px); */
+}
+
 .about-photo {
+    grid-area: photo;
     height: 300px;
     width: auto;
     margin: auto;
-    background-image: url('../images/Jay-headshot.jpg');
+    background-image: url("../images/Jay-headshot.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-text {
+    grid-area: text;
+    
 }

@@ -9,17 +9,12 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
-        {/* <div className="name-container">
-          Jay Wiles
-        </div> */}
-        <div className="home-container">
-          <div className="home-element home-journalism">
-            <div className="home-element-text"><a href="./journalism">Journalism</a></div>
-          </div>
-          <div className="home-element home-development">
-            <div className="home-element-text"><a href="./dev">Development</a></div>
-          </div>
+      <div className="home-container container">
+        <div className="home-element home-journalism">
+          <div className="home-element-text"><a href="./journalism">Journalism</a></div>
+        </div>
+        <div className="home-element home-development">
+          <div className="home-element-text"><a href="./dev">Development</a></div>
         </div>
       </div>
     )
