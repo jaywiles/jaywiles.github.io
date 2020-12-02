@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../design/Global.css'
-import '../design/Resume.css'
+import '../design/global.css'
+import '../design/resume.css'
 
 class Resume extends Component {
   state = {

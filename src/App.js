@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 import './App.css';
 
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
-import Journalism from "./components/Journalism";
-import Dev from "./components/Dev";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Home from "./components/home";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Resume from "./components/resume";
+import Journalism from "./components/journalism";
+import Dev from "./components/dev";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 class App extends Component {
   constructor(props) {

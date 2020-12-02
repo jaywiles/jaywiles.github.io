@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../design/Footer.css'
+import '../design/footer.css'
 
 class Footer extends Component {
   state = {
@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer-container">
-        <h4 className="footer">&copy; 2019 | Jay Wiles</h4>
+        <h4 className="footer">&copy; 2020 | Jay Wiles</h4>
       </div>
     )
   }

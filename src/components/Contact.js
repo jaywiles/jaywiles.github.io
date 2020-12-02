@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../design/Global.css'
-import '../design/Contact.css'
+import '../design/global.css'
+import '../design/contact.css'
 
 class About extends Component {
   state = {

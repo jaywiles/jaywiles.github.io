@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../design/Global.css'
-import '../design/Journalism.css'
+import '../design/global.css'
+import '../design/journalism.css'
 
 class Journalism extends Component {
   state = {
