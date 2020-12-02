@@ -12,12 +12,12 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
 
-    }
-  }
+  //   }
+  // }
 
   render() {
     return (
